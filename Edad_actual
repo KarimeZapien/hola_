@@ -12,4 +12,4 @@ print(f"El año actual es {hoy_fecha.year}")#en hoy_fecha.year se guarda solo el
 
 #como los dos están en tipo fecha, podemos restarlos directamente (los años nada más)
 print(f"\nLa edad que ya cumplió o debe cumplir en este año es {hoy_fecha.year-cumple_year}")
-
+#hola esto lo escribió ivana
