@@ -1,0 +1,15 @@
+#programa que te dice los años que vas a cumplir en el año actual
+import datetime
+
+print ('Bienvenido al programa para saber su edad al año 2023:')
+cumple_capturado=input("Ingrese su fecha de nacimiento (dd/mm/aaaa): \n")
+cumple_procesado=datetime.datetime.strptime(cumple_capturado, "%d/%m/%Y").date()
+cumple_year=cumple_procesado.year #en cumple_year guardé solo el año en qué nació poniendole el .year
+
+hoy_fecha=datetime.date.today()
+print(f"\nLa fecha actual es {hoy_fecha}")
+print(f"El año actual es {hoy_fecha.year}")#en hoy_fecha.year se guarda solo el año en el que estamos actualmente poniendole
+
+#como los dos están en tipo fecha, podemos restarlos directamente (los años nada más)
+print(f"\nLa edad que ya cumplió o debe cumplir en este año es {hoy_fecha.year-cumple_year}")
+
