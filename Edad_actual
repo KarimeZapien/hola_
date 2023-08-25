@@ -1,4 +1,4 @@
-#programa que te dice los años que vas a cumplir en el año actual
+#programa que te dice los años que vas a cumplir en el año 2023
 import datetime
 
 print ('Bienvenido al programa para saber su edad al año 2023:')
